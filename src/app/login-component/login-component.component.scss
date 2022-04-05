@@ -1,0 +1,28 @@
+div.login-container {
+    background-color: transparent;
+    border: 2px solid #303134;
+    border-radius: 5px;
+    width: 30em;
+}
+
+.app-w-100 { width: 100%; }
+
+.app-btn {
+    color: rgb(173 186 199);
+    transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+    transition-property: background-color, border-color;
+}
+
+.app-btn-dark,
+.app-btn {
+    background-color: rgb(55 62 71);
+    border-color: hsl(210deg 32% 85% / 10%);
+    color: rgb(173 186 199);
+}
+
+.app-btn-dark:hover {
+    background-color: rgb(68 76 86);
+    border-color: rgb(118 131 144);
+    transition-duration: .1s;
+    color: rgb(173 186 199);
+}

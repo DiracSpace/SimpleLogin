@@ -1,0 +1,7 @@
+@import "node_modules/bootstrap/scss/bootstrap";/* You can add global styles to this file, and also import other style files */
+
+$app-color-primary-dark: #202124;
+
+body {
+    background-color: $app-color-primary-dark;
+}

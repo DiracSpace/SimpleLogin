@@ -1,0 +1,20 @@
+<div class="px-3 px-md-4 px-lg-5" style="height: 100vh;">
+    <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+        <div class="card login-container p-2">
+            <div class="card-body">
+                <div class="d-flex justify-content-center m-2">
+                    <input class="form-control" type="text" placeholder="username" [(ngModel)]="username" (change)="usernameChange.emit(username)"  />
+                </div>
+                <div class="d-flex justify-content-center m-2">
+                    <input class="form-control" type="password" placeholder="password" [(ngModel)]="password" (change)="passwordChange.emit(password)"  />
+                </div>
+            </div>
+            <div class="d-flex">
+                <button [disabled]="credentialsValidation" class="btn app-w-100 app-btn-dark mx-2"
+                    (click)="onSubmitClicked()">
+                    Login
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
